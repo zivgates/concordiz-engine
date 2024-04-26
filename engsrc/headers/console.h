@@ -3,6 +3,7 @@
 
 #include <windows.h>
 
+#define wait(x) Sleep(x)
 
 typedef struct _window{
     int x;

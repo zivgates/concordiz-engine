@@ -14,7 +14,7 @@ int main() {
         cndiz_putchar(consoleHandle, &cChar);
         y++;
         x++;
-        Sleep(1000);
+        wait(1000);
     }
     return 0;
 }
